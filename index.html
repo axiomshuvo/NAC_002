@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expence Tracker</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <section id="balancesheet">
+        <div id="balarea">
+          <h1>Estimated Balance</h1>
+          <h2>$<span id="balance"></span></h2>
+        </div>
+        <div id="calculate">
+          <div id="funcarea">
+            <div class="td">
+              <h2>Total Deposit</h2>
+              <h3>$<span id="totaldp"></span></h3>
+            </div>
+            <div class="tw">
+              <h2>Total Withdraw</h2>
+              <h3>$<span id="totalwd"></span></h3>
+            </div>
+          </div>
+          <div id="inputarea">
+            <input type="number" id="num" min="0" required />
+            <button type="submit" id="deposit" class="btn bggreen">
+              Deposit
+            </button>
+            <button type="submit" id="withdraw" class="btn bgred">
+              Withdraw
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
