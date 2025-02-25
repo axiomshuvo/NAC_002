@@ -31,17 +31,22 @@ body {
 
 .main {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
+  background: cornsilk;
+  border: 1px solid #d39f1a;
+}
+.title {
+  padding: 20px;
+  background-color: rgb(94 63 177 / 99%);
+  color: white;
 }
 #balancesheet {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: cornsilk;
-  border: 1px solid #d39f1a;
 }
 
 #balarea {
